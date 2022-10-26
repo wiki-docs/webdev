@@ -1,11 +1,8 @@
-- Getting started
+- How-to
+  - [How to create webs](how-to-create-webs.md)
 
-  - [Example do](do.md)
-  - [DOM (Document Object Model)](dom.md)
-  - [README.md](README.md)
+- Articles
   - [Cover page](cover.md)
-
-- Customization
-
-
-- Guide
+  - [DOM (Document Object Model)](dom.md)
+  - [Docsify installation](docsify-installation.md)
+  - [README.md](README.md)
