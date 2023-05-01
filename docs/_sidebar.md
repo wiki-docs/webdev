@@ -1,8 +1,8 @@
-- How-to
-  - [How to create webs](how-to-create-webs.md)
-
 - Articles
-  - [Cover page](cover.md)
   - [DOM (Document Object Model)](dom.md)
-  - [Docsify installation](docsify-installation.md)
+  - [Create a website](create-web.md)
+  - [Deploy a website](deploy-web.md)
+  - [Types of websites](types-of-webs.md)
   - [README.md](README.md)
+- Web made with Docsify
+  - [Docsify documentation](docsify.md)

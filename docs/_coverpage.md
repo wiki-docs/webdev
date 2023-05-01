@@ -1,12 +1,12 @@
 ![logo](_media/icon.svg)
 
-# docsify <small>4.12.2</small>
+# How to create webs <small>0.3</small>
 
-> A magical documentation site generator.
+> Documentation site to explain how Web Dev works.
 
-- Simple and lightweight
-- No statically built html files
-- Multiple themes
+- List of prgramming languages
+- List of frameworks and programs
+- A bit of history
 
-[GitHub](https://github.com/docsifyjs/docsify/)
-[Getting Started](#docsify)
+[GitHub repo](https://github.com/David7ce/how-to-create-webs)
+[Start learning](#how-to-create-webs)
