@@ -2,7 +2,7 @@
 
 - By number of collaborators
     - One: individual
-    - >= 2: project, newspaper, wiki, social network
+    - Two or more: newspaper, social network, wiki
 
 - By type of content:
     - ecommerce

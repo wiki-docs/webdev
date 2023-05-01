@@ -1,8 +1,8 @@
+- Main page
+  - [README.md](README.md)
 - Articles
+  - [History of the Web](history-web.md)
   - [DOM (Document Object Model)](dom.md)
   - [Create a website](create-web.md)
   - [Deploy a website](deploy-web.md)
   - [Types of websites](types-of-webs.md)
-  - [README.md](README.md)
-- Web made with Docsify
-  - [Docsify documentation](docsify.md)
