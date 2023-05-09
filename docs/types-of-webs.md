@@ -1,16 +1,25 @@
 # Type of websites
 
-- By number of collaborators
+- By number of collaborators:
     - One: individual
-    - Two or more: newspaper, social network, wiki
+    - Two or more:
+        - Open:
+            - wiki
+            - social network
+        - Closed:
+            - Company blog
+            - newspaper
+
+- By number of developers:
+
 
 - By type of content:
-    - ecommerce
-    - information
+    - app
     - blog
     - encyclopedia
+    - ecommerce
+    - newspaper
     - platform
-    - app
     - portal
 
 - By information of topic:
@@ -19,6 +28,7 @@
     - Education
     - Entertainment
     - Health
+    - Media
     - Society
     - Science
     - World

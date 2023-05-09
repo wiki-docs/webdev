@@ -18,23 +18,24 @@
 *Web browsers only show websites (HTML, CSS, JS) and has an integrated JS engine. In the backend you can use any language that the server machine can compile.*
 
 ## Methods to create a website
-- Old method: use the Trinity (HTML, CSS, JS)
+### Traditional method
+Use the Trinity (HTML, CSS, JS)
 
-- Modern method: 
-    - With a framework:
-        - Full-stack framework: [angular](https://angular.io), 
-        - Front-end framework
-            - Markdown framework: [HUGO](https://gohugo.io/), [Hex](https://hexo.io/), [jekyll](https://jekyllrb.com/)
-                - Documentation app: [gitbook](https://www.gitbook.com/), [docusaurus](https://docusaurus.io/), [docsify](https://docsify.js.org/#/)
-                - Markdown view: [Perlite](https://github.com/secure-77/Perlite)
-        - Back-end framework: 
+### Modern method (frameworks): 
+
+- Front-end framework as [Static Site Generator (SSG)](https://jamstack.org/generators/)
+    - JS: [nextjs](https://nextjs.org/), [gatsby](https://www.gatsbyjs.com/), [nuxtjs](https://nuxtjs.org/), [gitbook](https://www.gitbook.com/), [docusaurus](https://docusaurus.io/), [docsify](https://docsify.js.org/#/), [Hexo](https://hexo.io/) 
+    - Go: [HUGO](https://gohugo.io/), [jekyll](https://jekyllrb.com/)
+
+- Back-end framework: 
     - With CMS (Content Management System): 
         - Normal: [WordPress](https://wordpress.org/), [Prestashop](https://www.prestashop.com/en), [Joomla](https://www.joomla.org/), [Shopify](https://www.shopify.com/)
-        - Headless CMS:
-        - Note taking: [obsidian.md](https://obsidian.md/), [notion.so](https://notion.mso/), [dendron.so](https://dendron.so/), [Org Mode](https://orgmode.org/)
+        - [Headless CMS](https://jamstack.org/headless-cms/): [ApostropheCMS](https://apostrophecms.com/), [Builder.io](https://www.builder.io/), [Butter CMS](https://buttercms.com/), [Cockpit](https://getcockpit.com/), [Directus.io](https://directus.io/), [dotCMS](https://www.dotcms.com/), [Ghost.org](https://ghost.org/), [KeystoneJS](), [Plasmic](https://www.plasmic.app/), [Ponzu](https://docs.ponzu-cms.org/), [Prose.io](https://prose.io/), [sanity.io](https://www.sanity.io/), [strapi.io](https://strapi.io/), [Tina.io](https://tina.io/)
+    - Note taking: [obsidian.md](https://obsidian.md/), [notion.so](https://notion.mso/), [dendron.so](https://dendron.so/), [Org Mode](https://orgmode.org/)
+
+- Full-stack framework: [angular](https://angular.io), [react](https://react.dev/)
 
 ## Use of Database
-
 - Without database (static website):
     - Only HTML, CSS, JS
 

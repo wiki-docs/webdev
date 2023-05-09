@@ -4,5 +4,6 @@
   - [History of the Web](history-web.md)
   - [DOM (Document Object Model)](dom.md)
   - [Create a website](create-web.md)
+  - [Create a wiki](create-wiki.md)
   - [Deploy a website](deploy-web.md)
   - [Types of websites](types-of-webs.md)

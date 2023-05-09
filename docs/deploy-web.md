@@ -61,3 +61,23 @@ If you choose a web hosting service you can directly go to step 5, because the w
 - For version control system (with Git): [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/), [Bitbucket](https://bitbucket.com/)
 - Platform web service: [Amazon Web Service (AWS)](https://aws.amazon.com/), [Google Cloud](https://cloud.google.com/)
 
+
+### SSG Deoploy
+
+Most websites require a server fee, however, websites that do not require a database can be deployed for free on the following platforms, with a default domain.
+
+- [Cloudfare Pages](https://pages.cloudflare.com/)
+- [Codeberg Pages](https://codeberg.page/)
+- [Deply HQ](https://www.deployhq.com/)
+- [Fly.io](https://fly.io/)
+- [GitHub Pages](https://pages.github.com/)
+- [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/)
+- [harp JS](https://harpjs.com/)
+- [Netlify](https://app.netlify.com/signup)
+- [Surge](https://surge.sh/)
+- [TIiny](https://tiiny.host/)
+
+
+## References
+
+- [SSG Deploy - Interneto](https://raindrop.io/Interneto/ssg-deploy-20160335/)
