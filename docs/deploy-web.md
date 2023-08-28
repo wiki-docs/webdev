@@ -78,6 +78,16 @@ Most websites require a server fee, however, websites that do not require a data
 - [TIiny](https://tiiny.host/)
 
 
+## Delpying in Machines
+
+The web server needs a hardware to execute the processes but this hardware could be "real metal" or some type of "virtual" thing under software layer.
+
+- Real hardware machine: CPU, GPU
+
+- OS-level virtualization: [Docker](https://www.docker.com/), [Kubernetes](https://kubernetes.io/), [Podman.io](https://podman.io/), [Crane](https://github.com/InfuseAI/crane)
+
+- Virtual Machine: [Virtualbox](https://www.virtualbox.org/), [VMWare](https://www.vmware.com/), [Qemu](https://www.qemu.org/), [Linux KVM](https://www.linux-kvm.org/page/Main_Page), [Virt Manger](https://virt-manager.org/)
+
 ## References
 
 - [SSG Deploy - Interneto](https://raindrop.io/Interneto/ssg-deploy-20160335/)

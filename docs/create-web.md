@@ -1,13 +1,13 @@
 # Create a website
 
-## Programming languages
+## By [Client–server model](https://en.wikipedia.org/wiki/Client%E2%80%93server_model)
 - Front-end (client side):
     - [HTML (Hyper Text Markup Language)](https://html.spec.whatwg.org/)
     - [CSS (Cascadian Style Sheet)](https://www.w3.org/TR/CSS/#css)
     - [JS (Javascript)](https://javascript.info/)
 
 - Back-end (server side):
-    - [PHP](https://www.php.net/)
+    - [PHP (PHP: Hypertext Preprocessor)](https://www.php.net/)
     - [Python](https://www.python.org/)
     - [C#](https://learn.microsoft.com/en-us/dotnet/csharp/)
     - [C++](https://isocpp.org/)
@@ -19,34 +19,55 @@
 
 ## Methods to create a website
 ### Traditional method
-Use the Trinity (HTML, CSS, JS)
+Use the Trinity (HTML, CSS, JS) in the frontend and write the backend in PHP with SQL (TSQl, MySQL) to connect to the database management system running a web server on a machine.
 
-### Modern method (frameworks): 
+### Modern methods, [web framework](https://en.wikipedia.org/wiki/Web_framework)
+- Front-end frameworks
+    - [React](https://react.dev/): JavaScript library for building user interfaces
+        - Next.js: for building server-rendered and client-rendered React apps
+    - [Angular](https://angular.io): for building complex and feature-rich apps with Typescript
+    - Vue.js: for building user interfaces and apps with JS
 
-- Front-end framework as [Static Site Generator (SSG)](https://jamstack.org/generators/)
-    - JS: [nextjs](https://nextjs.org/), [gatsby](https://www.gatsbyjs.com/), [nuxtjs](https://nuxtjs.org/), [gitbook](https://www.gitbook.com/), [docusaurus](https://docusaurus.io/), [docsify](https://docsify.js.org/#/), [Hexo](https://hexo.io/) 
-    - Go: [HUGO](https://gohugo.io/), [jekyll](https://jekyllrb.com/)
+- Back-end frameworks
+    - [NestJS](https://nestjs.com/): JS framework for building RESTful APIs, microservices and backend apps
+    - [Django](https://www.djangoproject.com/): high-level Python framework
+    - [Express.js](http://expressjs.com/): web framework for Node.js
+    - [Ruby on rails](https://rubyonrails.org/): web framework for the Ruby
 
-- Back-end framework: 
-    - With CMS (Content Management System): 
-        - Normal: [WordPress](https://wordpress.org/), [Prestashop](https://www.prestashop.com/en), [Joomla](https://www.joomla.org/), [Shopify](https://www.shopify.com/)
-        - [Headless CMS](https://jamstack.org/headless-cms/): [ApostropheCMS](https://apostrophecms.com/), [Builder.io](https://www.builder.io/), [Butter CMS](https://buttercms.com/), [Cockpit](https://getcockpit.com/), [Directus.io](https://directus.io/), [dotCMS](https://www.dotcms.com/), [Ghost.org](https://ghost.org/), [KeystoneJS](), [Plasmic](https://www.plasmic.app/), [Ponzu](https://docs.ponzu-cms.org/), [Prose.io](https://prose.io/), [sanity.io](https://www.sanity.io/), [strapi.io](https://strapi.io/), [Tina.io](https://tina.io/)
-    - Note taking: [obsidian.md](https://obsidian.md/), [notion.so](https://notion.mso/), [dendron.so](https://dendron.so/), [Org Mode](https://orgmode.org/)
+- Full-stack frameworks
+    - [Laravel](https://laravel.com/): PHP framework with Model-View-Controller
+    - [Meteor](https://www.meteor.com/): full-stack JavaScript framework
+    - [Spring Framework](https://spring.io/projects/spring-framework): Java-based framework
+    - [ASP.NET](https://dotnet.microsoft.com/en-us/apps/aspnet): framework for building web apps and services with .NET and C#
+    - [Nuxt JS](https://nuxtjs.org/): VUe full-stack framework for web apps
 
-- Full-stack framework: [angular](https://angular.io), [react](https://react.dev/)
+- Static-Site-Generators (SSG)
+    - [Docsify](https://docsify.js.org/#/): SSG written in JS
+    - [Hexo](https://hexo.io/): a fast, simple & powerful blog framework
+    - [HUGO](https://gohugo.io/): SSG written in Go
+    - [Jekyll](https://jekyllrb.com/): SSG written in Ruby
+    - [Gatsby](https://www.gatsbyjs.com/): SSG that uses React and GraphQL.
+    - [docusaurus](https://docusaurus.io/)
+    - [Hexo](https://hexo.io/) 
 
-## Use of Database
+- [Content Management System (CMS)](https://en.wikipedia.org/wiki/List_of_content_management_systems)
+    - [WordPress](https://wordpress.org/): Popular and user-friendly blogging platform.
+    - [Joomla](https://www.joomla.org/): Flexible and balanced CMS.
+    - [Drupal](https://www.drupal.org/): Powerful and versatile CMS for complex projects.
+    - [Prestashop](https://www.prestashop.com/en): CMS for ecommerce
+    - [Shopify](https://www.shopify.com/): CMS for ecommerce
+    - [Moodle](https://moodle.org/): CMS for learning management systems
+    - [Headless CMS](https://jamstack.org/headless-cms/): [Directus.io](https://directus.io/), [dotCMS](https://www.dotcms.com/), [Ghost.org](https://ghost.org/), [strapi.io](https://strapi.io/), [Tina.io](https://tina.io/)
+
+
+## By Database use
 - Without database (static website):
     - Only HTML, CSS, JS
 
 - With database (dynamic website):
     - Relational database management system (RDBMS): SQL (MariadDb, MySQL, PostgresSQL)
-    - No relational:
-        - API database: [httpie.io](https://httpie.io/), [postman](https://www.postman.com/), [solo.io](https://www.solo.io/), [Sequin.io](https://www.sequin.io/), [Bartkessels Getit](https://getit.bartkessels.net/), [Apollo Graph QL](https://www.apollographql.com/)
+    - No relational (with API): [httpie.io](https://httpie.io/), [postman](https://www.postman.com/), [solo.io](https://www.solo.io/), [Sequin.io](https://www.sequin.io/), [Bartkessels Getit](https://getit.bartkessels.net/), [Apollo Graph QL](https://www.apollographql.com/)
 
-- OS-level virtualization: [Docker](https://www.docker.com/), [Kubernetes](https://kubernetes.io/), [Podman.io](https://podman.io/), [Crane](https://github.com/InfuseAI/crane)
-
-- Virtual Machine: [Virtualbox](https://www.virtualbox.org/), [VMWare](https://www.vmware.com/), [Qemu](https://www.qemu.org/), [Linux KVM](https://www.linux-kvm.org/page/Main_Page), [Virt Manger](https://virt-manager.org/)
 
 ## References
 - [Browser engine](https://en.wikipedia.org/wiki/Browser_engine)
